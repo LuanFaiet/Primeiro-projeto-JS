@@ -1,0 +1,152 @@
+/*.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #8A51FC;
+    ;
+
+}
+
+.img-diheiro {
+    width: 300px;
+    margin: 20px auto;
+    display: block;
+    object-fit: contain;
+    transform: translateY(10%);
+    animation: rolate 6s linear  infinite;
+    border-radius: 40%;
+    overflow: hidden;
+
+
+}
+
+@keyframes rolate { from{ transform: rotate(0deg);}
+to {transform: rotate(-360deg);}}
+
+
+main {
+    background: #F4F4F4;
+    width: 375px;
+    border-radius: 20px;
+    margin: 0 auto 40px;
+    padding: 44px 24px 23px;
+
+}
+
+label {
+    font-weight: 400px;
+    font-size: 14px;
+    color: #777777;
+}
+
+select {
+    background: #ffffff;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 24px;
+    padding-left: 18px;
+    font-size: 16px;
+    color: #555555;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+input {
+    color: #555555;
+    font-weight: 700;
+    font-size: 16px;
+    height: 48px;
+    padding-left: 18px;
+    width: 100%;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button {
+    background: #772FD3;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 700;
+    width: 100%;
+    height: 48px;
+    border-radius: 5px;
+    border: none;
+    padding: 23px 24px 36px;
+    margin-top: 23px;
+
+    margin-bottom: 36px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.5;
+}
+
+
+section {
+    border: 1px solid #772FD3;
+    border-radius: 20px;
+    margin-top: 36px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagem2setas{
+    height: 48px;
+    background-color: #772FD3;
+    border-radius: 50%;
+    overflow: hidden;
+    aspect-ratio: 1;
+    animation: rolate 6s linear infinite;
+    animation-direction: alternate-reverse;
+
+}
+
+
+.currency-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.currency{
+    color:  #777777;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.currency-dolar, .currency-real {
+    color: #555555;
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+
