@@ -16,8 +16,10 @@ function convertValues() {
         currency: "BRL"
     }).format(inputValue)
 
-
-
+    valorOutrasMoedas.innerHTML = new Intl.NumberFormat("en-US",{
+        style:"currency",
+        currency: "USD"
+    }).format(convercao)
 
 }
 
