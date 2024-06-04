@@ -24,4 +24,4 @@ function convertValues() {
 
 }
 
-converterButton.addEventListener("click", convertValues)luan
+converterButton.addEventListener("click", convertValues)
